@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sysmap-microservice-node
+  annotations:
+    github.com/project-slug: coe-tech/sysmap-microservice-node
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: coe-tech
+spec:
+  type: service
+  lifecycle: development
+  owner: user:guest
